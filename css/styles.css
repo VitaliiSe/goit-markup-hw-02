@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto', 'Raleway';
+    background-color: #FFFFFF;
+}
+/* contacts */
+.link {
+    color: #757575;
+  }
+.link:hover {
+    color:#2196F3;
+  }
+  
+  .social-links .link {
+    color: teal;
+  }
+  
+  .social-links .link:focus {
+    color: orange;
+  }
+
+/* button */
+  .pointer{
+    cursor: pointer;
+}
+
