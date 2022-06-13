@@ -68,6 +68,20 @@ color: var(--secondary-text-color);
   height: 600px;
   background:var(--background-color);
 }
+.hero .hero-button{
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background-color:var(--button-color);
+  color: var(--primary-text-color);
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus{
+  background-color:var(--accent-color);
+  color:var(--button-color);
+}
+
 .hero-caption{
   font-style: normal;
   font-weight: 900;
@@ -125,7 +139,7 @@ top: 174px;
 .bar .button-bar:focus,
 .bar .button-bar:hover{
   background-color:var(--accent-color);
-  color: var(--accent-color);
+  color:var(--button-color);
 }
 /* examples */
 .examples .examples-title{
