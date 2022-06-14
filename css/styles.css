@@ -50,8 +50,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  text-decoration: none;
+color: var(--primary-text-color);
+text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
