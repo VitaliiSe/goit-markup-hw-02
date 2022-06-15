@@ -6,11 +6,12 @@
   --logo-color:#000000;
   --button-color:#F5F4FA;
   --background-color:#2F303A;
+  --white-color:#FFFFFF;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
   
 }
 .list{
@@ -41,6 +42,19 @@ text-decoration: none;
 .logo:hover,
 .logo:focus{
 color:var(--accent-color);
+}
+
+.footer-color .logo-footer{
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--button-color);
+}
+.footer-color .logo-footer:hover,
+.footer-color .logo-footer:hover{
+  color:var(--accent-color);
 }
 
 /* site-nav */
@@ -109,7 +123,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color:#FFFFFF;
+color:var(--white-color);
 
 }
 
@@ -146,7 +160,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-  color: var(--primary-text-color);
+color: var(--primary-text-color);
 }
 .post .post-text{
   font-style: normal;
@@ -165,7 +179,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+color: var(--primary-text-color);
 }
 /* team */
 .team .team-caption{
@@ -204,7 +218,7 @@ letter-spacing: 0.03em;
 
 /* bar */
 
-.bar .button-bar{
+.examples .button-bar{
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -222,8 +236,8 @@ color: var(--primary-text-color);
 border:transparent;
 border-radius: 4px;
 }
-.bar .button-bar:focus,
-.bar .button-bar:hover{
+.examples .button-bar:focus,
+.examples .button-bar:hover{
   background-color:var(--accent-color);
   color:var(--button-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
